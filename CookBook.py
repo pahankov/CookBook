@@ -104,9 +104,13 @@ cook_book.save_to_file()
 
 # read_cookbook_from_file('recipes.txt')
 
+# cook_book_dict = cook_book.to_dict()
+# print("cook_book =", cook_book_dict)
 
-cook_book_dict = cook_book.to_dict()
-print("cook_book =", cook_book_dict)
+
+
+
+
 # cook_book = {
 #   'Омлет': [
 #     {'ingredient_name': 'Яйцо', 'quantity': 2, 'measure': 'шт.'},
@@ -125,4 +129,3 @@ print("cook_book =", cook_book_dict)
 #     {'ingredient_name': 'Сыр гауда', 'quantity': 100, 'measure': 'г'},
 #     ]
 #   }
-
